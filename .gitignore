@@ -1,0 +1,44 @@
+# ============================================================
+# CREDENTIALS — never commit these
+# ============================================================
+ergoKey.txt
+*.pem
+*.key
+.env
+.env.*
+
+# Model artifacts
+*.json.model
+*.pkl
+*.joblib
+selected_features.json
+models/
+
+# Logs
+*.log
+async_bot.log
+logs/
+
+# Data
+*.csv
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+env/
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
